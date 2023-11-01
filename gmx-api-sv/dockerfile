@@ -1,0 +1,9 @@
+FROM golang:1.19 as base
+
+FROM base as dev
+
+WORKDIR /opt/app/api
+
+COPY ./gmx5xx-api-sv/bin/gmx5xx-api-sv /opt/app/api
+
+CMD ["./gmx5xx-api-sv"]

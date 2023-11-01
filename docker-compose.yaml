@@ -1,0 +1,40 @@
+version: "3.9"
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+      context: ./gmx-api-sv
+      target: dev
+    container_name: gmx_api_app
+    hostname: gmx_api_app
+    networks:
+      back:
+    environment:
+      API_SERVER_ADDR: ":3000"
+      # DATABASE_URL: postgres://local-dev@db/api?sslmode=disable
+      DB_HOSTNAME: gmx_met_database
+      DB_NAME: ${DB_NAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+    ports:
+    - "3000:3000"
+    links:
+    - db
+  db:
+    image: postgres:15.2
+    container_name: gmx_met_database
+    hostname: gmx_met_database
+    networks:
+      back:
+    restart: always
+    ports:
+    - "55432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres_ideasky
+  
+networks:
+  back:
+        name: gmx_api_net
+        driver: bridge

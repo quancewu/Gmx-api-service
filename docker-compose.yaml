@@ -9,6 +9,7 @@ services:
     hostname: gmx_api_app
     networks:
       back:
+    restart: always
     environment:
       API_SERVER_ADDR: ":3000"
       # DATABASE_URL: postgres://local-dev@db/api?sslmode=disable
@@ -26,13 +27,13 @@ services:
     networks:
       back:
     restart: always
-    ports:
-    - "55432:5432"
+    #ports:
+    #- "55432:5432"
     volumes:
       - ./data:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres_ideasky
+      POSTGRES_USER: ${DB_NAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
   
 networks:
   back:

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://github.com/quancewu/Gmx-api-service/blob/master/picture/favicon.svg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://github.com/quancewu/Gmx-api-service/blob/main/picture/favicon.svg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">gmx-api-service</h3>

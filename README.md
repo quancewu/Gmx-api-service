@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> GMX5xx Series RS485 Modbus RTU tty controller
+<p align="center"> GMX5xx Series SQL database using golang for RESTfull API
     <br> 
 </p>
 

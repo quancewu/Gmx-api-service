@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://github.com/quancewu/gmx-api-service/blob/master/picture/favicon.svg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://github.com/quancewu/Gmx-api-service/blob/master/picture/favicon.svg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">gmx-api-service</h3>
@@ -8,8 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/quancewu/gmx-api-service.svg)](https://github.com/quancewu/gmx-api-service/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/quancewu/gmx-api-service.svg)](https://github.com/quancewu/gmx-api-service/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/quancewu/Gmx-api-service.svg)](https://github.com/quancewu/Gmx-api-service/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/quancewu/Gmx-api-service.svg)](https://github.com/quancewu/Gmx-api-service/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>

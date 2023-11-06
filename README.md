@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-GMX5xx Series RS485 Modbus RTU tty controller
+GMX5xx Series SQL database
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
